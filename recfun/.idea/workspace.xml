@@ -59,13 +59,13 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/project/target/config-classes/$f8ca37457f402cff3d8a$.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/project/target/config-classes/$f8ca37457f402cff3d8a.cache" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/project/target/config-classes/$f8ca37457f402cff3d8a.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../recfun.zip" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../example/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/../example/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../example/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/../example/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../example/target/scala-2.11/classes/example/Lists$.class" afterPath="$PROJECT_DIR$/../example/target/scala-2.11/classes/example/Lists$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../example/target/scala-2.11/progfun1-example_2.11-0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../example/target/scala-2.11/progfun1-example_2.11-0.1-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../example/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/../example/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../example/target/streams/compile/packageSubmission/$global/streams/inputs" afterPath="$PROJECT_DIR$/../example/target/streams/compile/packageSubmission/$global/streams/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/recfun/Main$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/recfun/Main$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../example/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../example/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../example/project/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/../example/project/target/streams/compile/compileIncremental/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../example/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/../example/project/target/streams/compile/compileIncremental/$global/streams/out" />
@@ -76,7 +76,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../example/target/streams/compile/packageSubmission/$global/streams/out" afterPath="$PROJECT_DIR$/../example/target/streams/compile/packageSubmission/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../example/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/../example/target/streams/test/definedTests/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/recfun/Main.scala" afterPath="$PROJECT_DIR$/src/main/scala/recfun/Main.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -107,8 +106,8 @@
       <file leaf-file-name="Main.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/recfun/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49074075">
-              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.44444445">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -308,7 +307,7 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../example/build.sbt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../funsets/build.sbt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
@@ -935,7 +934,7 @@
       <updated>1464318977460</updated>
       <workItem from="1464318986569" duration="462000" />
       <workItem from="1464325854945" duration="6556000" />
-      <workItem from="1464335001337" duration="1263000" />
+      <workItem from="1464335001337" duration="1560000" />
     </task>
     <servers />
   </component>
@@ -963,7 +962,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8281000" />
+    <option name="totallyTimeSpent" value="8578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="-22" width="1276" height="799" extended-state="0" />
@@ -1060,8 +1059,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/recfun/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49074075">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.44444445">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="19" />
           <folding />
         </state>
       </provider>
