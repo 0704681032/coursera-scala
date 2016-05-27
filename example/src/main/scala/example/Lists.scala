@@ -46,12 +46,16 @@ object Lists {
   def max(xs: List[Int]): Int = {
     if (xs.isEmpty) throw new NoSuchElementException()
     else if (xs.length == 1) xs.head
-    else {
+    else Math.max(max(xs.tail),xs.head)
+    //else //{
       //scala没有三元运算符
-      var t = max(xs.tail)
-      var f = xs.head
-      if (t >= f) t
-      else f
-    }
+      //Since this is a course on functional programming,
+      // we want you to get used to writing code in a purely functional style
+//      var t = max(xs.tail)
+//      var f = xs.head
+//      if (t >= f) t
+//      else f
+        //不能出现var 函数式编程 纯函数
+    //}
   }
 }
