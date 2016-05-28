@@ -94,11 +94,32 @@ object Main extends App {
   }
 
 
+  def mergeSort3[T](arr:List[T] )(implicit order:Ordering[T]):List[T] = { //使用类库内置的类 并且使用implicit语法糖
+    if ( arr.isEmpty ) throw new Exception()
+    else if ( arr.length == 1 ) arr //avoid using return
+    else { //刚开始这里没有加 esle 导致上面的arr失败
+    var (left,right) = arr splitAt arr.length / 2 //数组分为两部分
+    def merge(left:List[T],right:List[T]):List[T]  =  (left,right) match {
+        case(Nil,_)=>right
+        case(_,Nil)=>left
+        case(x::xs,y::ys)=>{
+          if( order.lt(x,y) ) x::merge(xs,right)
+          else y::merge(left,ys)
+        }
+      }
+      merge(mergeSort3(left),mergeSort3(right))
+    }
+  }
+
+
   println(mergeSort(List(3,1,67,34,78,12)))
 
   println( mergeSort1(List(3,1,67,34,78,12)) ( (x,y) => x<y ) )
 
   println( mergeSort2(List(3,1,67,34,78,12))(Ordering.Int) )
+
+  println( mergeSort3(List(3,1,67,34,78,12))(Ordering.Int) )
+
 
 
 }
